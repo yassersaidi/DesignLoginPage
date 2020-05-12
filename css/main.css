@@ -1,1 +1,146 @@
+/*By Yasser DX, Follow me on Facebook=> @sohoper10*/
 
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: Tahoma;
+    color: #263238;
+}
+.filter-blur{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.login-form{
+    background-color: #d1d1d1d1;
+    padding: 29px 16px;
+    border-radius: 4px;
+    width:296px;
+}
+.part{
+    margin: 20px 0;
+}
+h5{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 9px;
+    font-weight: 500;
+}
+.group{
+    
+    padding: 0px 18px;
+
+}
+input:not([type="checkbox"]){
+    border: none;
+    padding: 10px 8px;
+}
+input#email{
+    width:94%;
+}
+input#pass{
+    width:81%;
+    border-radius: 3px 0px 0px 3px;
+}
+.email-part input{
+    border-radius: 3px;
+}
+.vue-pass{
+    height: 35px;
+    width: 57px;
+    border-radius: 0px 3px 3px 0px;
+    font-size: 15px;
+    border:none;
+    background-color: #d1d1d1;
+    color: inherit;
+}
+a{
+    color: #0D47A1;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.d-flex-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-button{
+    background: #2E7D32;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+}
+.pass-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pass-b ,.email-part input{
+    margin:10px 0 0;
+}
+.links-login{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.links-login .link{
+    display: inline-block;
+    padding: 10px 8px;
+    color: #FFF;
+    border-radius: 5px;
+    /* font-family: inherit; */
+}
+.link.facebook{
+    background: #275dcc;
+}
+.link.gmail{
+    background: #e05146;
+}
+
+#remcheck{
+    display: none;
+}
+#remcheck:checked + .c-check::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f14a";
+    margin:0 5px 0 0
+}
+.c-check::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c8";
+    margin:0 5px 0 0
+}
+.heartBeat{
+    transition: all .5s ease-in-out;
+    animation: heartBeat .4s cubic-bezier(0.99, 0.5, 0.04, 0.48) infinite;
+}
+@keyframes heartBeat{
+    0%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    80%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
