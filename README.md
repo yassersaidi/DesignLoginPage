@@ -9,6 +9,6 @@ Design login page with html css and js
 - YouTube : coming so soon <br/>
 - [Facebook Tech Group](https://www.facebook.com/groups/dzairfamilytech/?ref=share) <br/>
 ## View Design:
-==> [View]https://yassersaidi.github.io/DesignLoginPage/
+- [View]https://yassersaidi.github.io/DesignLoginPage/
 ## Finally Ramadhan Moubark
 
